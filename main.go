@@ -79,6 +79,8 @@ func main() {
 
 		fmt.Println("HSX change again")
 		fmt.Println("ZSX change again loaclly")
+
+		fmt.Println("ZSX change again by goland")
 	}
 	fmt.Printf("cost: %dms", time.Since(beg).Milliseconds())
 }
