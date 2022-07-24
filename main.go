@@ -81,6 +81,8 @@ func main() {
 		fmt.Println("ZSX change again loaclly")
 
 		fmt.Println("ZSX change again by goland")
+
+		fmt.Println("add an account.")
 	}
 	fmt.Printf("cost: %dms", time.Since(beg).Milliseconds())
 }
