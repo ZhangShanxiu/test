@@ -76,8 +76,9 @@ func main() {
 		time.Sleep(1 * time.Second)
 
 		fmt.Println("Hello world")
-		
+
 		fmt.Println("HSX change again")
+		fmt.Println("ZSX change again loaclly")
 	}
 	fmt.Printf("cost: %dms", time.Since(beg).Milliseconds())
 }
