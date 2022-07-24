@@ -73,6 +73,7 @@ func main() {
 		//CopyUser(user1, user2)
 		//CopyStruct(user1, user2)
 		CopyObj(user1, user2)
+		time.Sleep(1 * time.Second)
 	}
 	fmt.Printf("cost: %dms", time.Since(beg).Milliseconds())
 }
